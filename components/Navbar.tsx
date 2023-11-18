@@ -2,6 +2,7 @@ import Link from "next/Link"
 import Image from "next/image"
 import {NAV_LINKS} from "@/constants"
 import Button from "./Button"
+import { FaRegUser } from "react-icons/fa";
 
 const Navbar = () => {
   return (
@@ -19,12 +20,10 @@ const Navbar = () => {
         ))}
     </ul>
     <div className="lg:flexCenter hidden">
-      <Button 
-        type="button"
-        title="Login"
-        icon="/user.svg"
-        variant="btn_dark_green"
-        />
+      <button className="flex flex-row gap-2 bg-green-90 hover:bg-black cursor-pointer rounded-full text-white text-xl ml-5 font-bold px-6 py-4 hover:text-green-50 transition duration-600">
+        <FaRegUser size={25}/>
+        Login
+      </button>
     </div>
     <Image
     src="menu.svg"
