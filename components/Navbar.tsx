@@ -20,7 +20,7 @@ const Navbar = () => {
         ))}
     </ul>
     <div className="lg:flexCenter hidden">
-      <button className="flex flex-row gap-2 bg-green-90 hover:bg-black cursor-pointer rounded-full text-white text-xl ml-5 font-bold px-6 py-4 hover:text-green-50 transition duration-600">
+      <button className="flex flex-row gap-2 bg-green-500 hover:bg-black cursor-pointer rounded-full text-white text-xl ml-4 font-bold px-6 py-3 hover:text-white transition duration-600">
         <FaRegUser size={25}/>
         Login
       </button>

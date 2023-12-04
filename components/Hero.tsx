@@ -48,13 +48,23 @@ const Hero = () => {
 
 
           <div className="flex flex-col w-full gap-3 sm:flex-row">
-            <button className="bg-green-500 rounded-3xl text-white font-bold px-5 py-3 hover:bg-black hover:text-white transition duration-500">Download app</button>
+            <button className="bg-green-500 rounded-3xl text-white font-bold 
+            px-5 py-3 hover:bg-black hover:text-white transition duration-500">
+              Download app</button>
             <div className="flex flex-row items-center ml-6 justify-center">
               <MdOutlineWorkOutline />
-              <button className="bg-white rounded-3xl text-black font-bold px-3 py-3 cursor-pointer">How we work?</button>
+              <button className="bg-white rounded-3xl text-black font-bold 
+              px-3 py-3 cursor-pointer">
+                How we work?</button>
             </div>
-            
           </div>
+
+      </div>
+      <div className="relative flex flex-1 items-start border-2 border-blue-500">
+        <div className="relative z-20 w-[268px] flex-col gap-8
+        rounded-3xl bg-green-90 px-7 py-8">
+
+        </div>
 
       </div>
 
